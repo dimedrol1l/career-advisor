@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#181818"><meta name="description" content="Sber21 — рабочее пространство для подготовки честного отклика: резюме, вакансия, анализ и документы.">
+  <title>Sber21 · Подготовка отклика</title>
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/static/fonts/Manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <a class="skip" href="#content">Перейти к содержимому</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Навигация">
+      <a class="brand" href="#"><span class="brand-mark" aria-hidden="true">s/</span><span>Sber21<span class="brand-sub">CAREER WORKSPACE</span></span></a>
+      <nav id="navigation" aria-label="Этапы отклика"></nav>
+      <div class="sidebar-bottom"><span class="local-dot"></span><div>Личное пространство<small>Данные на этом компьютере</small></div></div>
+    </aside>
+    <div class="app-main">
+      <header class="topbar"><a href="#" class="breadcrumb">Мои отклики</a><span id="crumb" class="crumb"></span><span class="top-note">Личный карьерный copilot</span><span class="avatar" aria-label="Локальный пользователь">Я</span></header>
+      <main id="content" tabindex="-1"></main>
+      <footer><span>Sber21 · Личный карьерный проект</span><button class="text-button" data-action="privacy">Хранение и AI</button></footer>
+    </div>
+  </div>
+  <div id="notification" role="status" aria-live="polite"></div>
+  <dialog id="dialog"><div id="dialog-body"></div><div class="dialog-actions"><button class="button secondary" id="dialog-cancel">Отмена</button><button class="button" id="dialog-confirm">Продолжить</button></div></dialog>
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+output/
+vacancy_data/
+ppp_cache.json
+my_resume.docx
+my_resume.pdf
+.DS_Store
+data/
+tmp/

@@ -1,0 +1,58 @@
+{
+  "findings": [
+    {
+      "requirement_id": "r1",
+      "status": "supported",
+      "fact_ids": [
+        "f3",
+        "f4"
+      ],
+      "explanation": "Python указан в навыках; есть собственный API на FastAPI."
+    },
+    {
+      "requirement_id": "r2",
+      "status": "supported",
+      "fact_ids": [
+        "f3"
+      ],
+      "explanation": "Основы SQL прямо указаны в резюме."
+    },
+    {
+      "requirement_id": "r3",
+      "status": "supported",
+      "fact_ids": [
+        "f3"
+      ],
+      "explanation": "Git указан в подтверждённом списке навыков."
+    },
+    {
+      "requirement_id": "r4",
+      "status": "supported",
+      "fact_ids": [
+        "f3",
+        "f4"
+      ],
+      "explanation": "В учебном проекте использованы FastAPI и pytest."
+    },
+    {
+      "requirement_id": "r5",
+      "status": "unknown",
+      "fact_ids": [],
+      "explanation": "Подтверждена SQLite. Опыт PostgreSQL не указан; это не доказывает его отсутствие."
+    },
+    {
+      "requirement_id": "r6",
+      "status": "partial",
+      "fact_ids": [
+        "f4"
+      ],
+      "explanation": "Есть опыт собственного REST API. Работа с наставником пока не описана."
+    },
+    {
+      "requirement_id": "r7",
+      "status": "unknown",
+      "fact_ids": [],
+      "explanation": "Доступное время в резюме не указано. Уточните перед откликом."
+    }
+  ]
+}

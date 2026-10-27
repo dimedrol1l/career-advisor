@@ -1,0 +1,37 @@
+# Secrets and local provider configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Python environments, caches and local tooling
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+.DS_Store
+
+# Personal applications, generated documents and local research
+data/
+output/
+uploads/
+private/
+tmp/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+*.docx
+*.pdf
+!final/demo/resume.pdf
